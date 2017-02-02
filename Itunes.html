@@ -5,26 +5,27 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
   <link href="style.css" rel="stylesheet">
   <style>
   </style>
 </head>
 <body>
-  <div id="wrapper" class="container">
-         <div class="jumbotron">
-             <h1>Itunes Music Finder</h1>
-             <br>
-             <div id="form" class="col-md-12">
-                 <div class="input-group">
-                     <input type="text" id="searchField" class="form-control" placeholder="Enter artist, song or album">
-                     <span class="input-group-btn">
- 	                	<button type="button" id="searchButton" class="btn btn-default">ISearch</button>
-            			</span>
-                 </div>
-             </div>
-         </div>
-         <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-         <script src="jQuery.js"></script>
+   <h1>Itunes Music Finder</h1>
+    <br>
+     <div id="form" class="col-md-8">
+      <div class="input-group">
+       <input type="seach" id="searchField" onSearch="search" class="form-control" placeholder="Enter artist, song or album">
+        <span class="input-group-btn">
+ 	       <button type="submit" id="searchButton" class="btn btn-default">ISearch</button>
+        </span>
+      </div>
+       <p><br></p>
+        <div id="showResults" class="col-lg-12">
+         <ul></ul>
+        </div>
+     </div>
+   </div>
+ <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+ <script src="jQuery.js"></script>
 </body>
 </html>

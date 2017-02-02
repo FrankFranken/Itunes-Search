@@ -1,4 +1,15 @@
-.jumbotron.less{
-  color: crimson;
-  background-color: coral;
+body {
+  background: url(images/music.jpg);
+  background-size: cover;
+}
+h1 {
+  color: white;
+  font-size: 36;
+  text-shadow: 2px 2px blue;
+  font-style: italic;
+  padding-left: 100px;
+}
+ul {
+  color: white;
+  text-shadow: 2px 2px black;
 }
